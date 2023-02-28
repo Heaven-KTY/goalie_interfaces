@@ -23,9 +23,9 @@ bool motor_state
 # 유무선 상태
 uint8 remote
 
-# 모터 
-bool moter_l_power_val
-bool moter_r_power_val
+# 모터 전류 값? 확인 필요
+float64 moter_l_power_val 
+float64 moter_r_power_val 
 
 # 모터 RPM
 uint16 moter_l_rpm

@@ -1,9 +1,0 @@
-float64 linear_velocity
-float64 angular_velocity
-float64 battery_voltage
-uint8 remote
-bool moter_x_power_val
-bool moter_x_control_a
-bool moter_x_control_f
-bool moter_x_overvolt
-bool moter_x_overcurrent

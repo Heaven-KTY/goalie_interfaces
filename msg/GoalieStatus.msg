@@ -8,7 +8,7 @@ float64 angular_velocity
 float64 battery_voltage
 
 # 배터리 저전압 알림
-bool batt_low_volt
+bool battery_low_volt
 
 # 배터리 충전 알림
 bool battery_charge
@@ -24,8 +24,8 @@ bool motor_state
 uint8 remote
 
 # 모터 전류 값? 확인 필요
-float64 moter_l_power_val 
-float64 moter_r_power_val 
+float64 moter_l_power_val
+float64 moter_r_power_val
 
 # 모터 RPM
 uint16 moter_l_rpm

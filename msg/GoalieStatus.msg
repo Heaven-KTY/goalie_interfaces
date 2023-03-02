@@ -18,10 +18,10 @@ bool emergency_sw_stop # 유선
 bool emergency_rf_stop # 무선
 
 # 모터구동 상태
-bool motor_state
+bool motor_status
 
 # 유무선 상태
-uint8 remote
+uint8 remote_status
 
 # 모터 전류 값
 float64 moter_l_power_val
@@ -59,5 +59,5 @@ uint8 motor_l_current
 uint8 motor_r_current
 
 # 모터 스톨 에러
-bool motor_l_stall
-bool motor_r_stall
+bool motor_l_stallerror
+bool motor_r_stallerror

@@ -23,9 +23,9 @@ bool motor_status
 # 유무선 상태
 uint8 remote_status
 
-# 모터 전류 값
-float64 moter_l_power_val
-float64 moter_r_power_val
+# 모터 전류 값 
+#float64 moter_l_power_val 사용안함
+#float64 moter_r_power_val 사용안함
 
 # 모터 RPM
 uint16 moter_l_rpm
@@ -54,9 +54,9 @@ bool moter_r_overcurrent
 # CAN 통신에러
 bool can_fault
 
-# 모터 구동 전류 값
-uint8 motor_l_current
-uint8 motor_r_current
+# 모터 구동 전류 값 
+uint16 motor_l_current # 8 -> 16
+uint16 motor_r_current # 8 -> 16
 
 # 모터 스톨 에러
 bool motor_l_stallerror

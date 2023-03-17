@@ -28,8 +28,8 @@ uint8 remote_status
 #float64 moter_r_power_val 사용안함
 
 # 모터 RPM
-uint16 moter_l_rpm
-uint16 moter_r_rpm
+int32 moter_l_rpm #uint16 -> int32
+int32 moter_r_rpm #uint16 -> int32
 
 # 모터 제어기의 알람
 bool moter_l_control_a

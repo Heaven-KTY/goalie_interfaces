@@ -25,8 +25,8 @@ uint8 remote_status
 
 ##############사용안함##############
 # 모터 전류 값 
-#float64 motor_l_power_val 사용안함 # 오타 수정 3월 20일
-#float64 motor_r_power_val 사용안함 # 오타 수정 3월 20일
+#float64 motor_l_power_val 사용안함 
+#float64 motor_r_power_val 사용안함
 ##################################
 
 ##############오타수정 3월 20일##############

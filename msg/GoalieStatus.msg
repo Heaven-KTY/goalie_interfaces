@@ -23,33 +23,41 @@ bool motor_status
 # 유무선 상태
 uint8 remote_status
 
+##############사용안함##############
 # 모터 전류 값 
-#float64 moter_l_power_val 사용안함
-#float64 moter_r_power_val 사용안함
+#float64 motor_l_power_val 사용안함 # 오타 수정 3월 20일
+#float64 motor_r_power_val 사용안함 # 오타 수정 3월 20일
+##################################
+
+##############오타수정 3월 20일##############
+# 수정 내용 moter -> motor
+##########################################
 
 # 모터 RPM
-int32 moter_l_rpm #uint16 -> int32
-int32 moter_r_rpm #uint16 -> int32
+int32 motor_l_rpm #uint16 -> int32
+int32 motor_r_rpm #uint16 -> int32
 
 # 모터 제어기의 알람
-bool moter_l_control_a
-bool moter_r_control_a
+bool motor_l_control_a
+bool motor_r_control_a
 
 # 모터 제어실패
-bool moter_l_control_f
-bool moter_r_control_f
+bool motor_l_control_f
+bool motor_r_control_f
 
 # 모터 과온도
 bool motor_l_overtemp
 bool motor_r_overtemp
 
 # 모터 과전압
-bool moter_l_overvolt
-bool moter_r_overvolt
+bool motor_l_overvolt
+bool motor_r_overvolt
 
 # 모터 no.x 과전류
-bool moter_l_overcurrent
-bool moter_r_overcurrent
+bool motor_l_overcurrent
+bool motor_r_overcurrent
+
+########################################
  
 # CAN 통신에러
 bool can_fault

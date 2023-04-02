@@ -23,15 +23,14 @@ bool motor_status
 # 유무선 상태
 uint8 remote_status
 
+# 릴레이 상태
+bool relay_status # 타입 확인 필요
+
 ##############사용안함##############
 # 모터 전류 값 
 #float64 motor_l_power_val 사용안함 
 #float64 motor_r_power_val 사용안함
 ##################################
-
-##############오타수정 3월 20일##############
-# 수정 내용 moter -> motor
-##########################################
 
 # 모터 RPM
 int32 motor_l_rpm #uint16 -> int32
@@ -56,8 +55,6 @@ bool motor_r_overvolt
 # 모터 no.x 과전류
 bool motor_l_overcurrent
 bool motor_r_overcurrent
-
-########################################
  
 # CAN 통신에러
 bool can_fault

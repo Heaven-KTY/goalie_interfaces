@@ -23,10 +23,10 @@ bool motor_status
 # 유무선 상태
 uint8 remote_status
 
-# 릴레이 상태
-uint8 relay_status # 타입 확인 필요
-
 ##############사용안함##############
+# 릴레이 상태
+#uint8 relay_status # 타입 확인 필
+
 # 모터 전류 값 
 #float64 motor_l_power_val 사용안함 
 #float64 motor_r_power_val 사용안함
@@ -66,6 +66,3 @@ uint16 motor_r_current # 8 -> 16
 # 모터 스톨 에러
 bool motor_l_stallerror
 bool motor_r_stallerror
-
-# Temp 더미값 확인용도
-int16 val_temp # 더미값
